@@ -50,7 +50,7 @@ Synthetic data was used to maintain privacy while preserving theoretical validit
 ## Exploratory Data Analysis
 Exploratory analysis revealed:
 - Higher interaction density and task switching correlate with increased fatigue  
-- Late-night usage significantly elevates fatigue scores  
+- Late night usage significantly elevates fatigue scores  
 - Notification exposure contributes to extraneous cognitive load  
 
 These findings align with cognitive load theory and attentional resource limitations.
@@ -105,4 +105,11 @@ It provides a framework for evaluating digital systems based on **cognitive cost
 ## Future Extensions
 - Replace synthetic data with real interaction logs (with consent)  
 - Compare multiple model types for robustness  
-- Integrate real time fatigue prediction into interface prototypes  
+- Integrate real time fatigue prediction into interface prototypes
+
+---
+
+## Methodological Note on Synthetic Data
+
+Because the dataset is synthetically generated using psychologically motivated assumptions, the model’s performance reflects internal consistency rather than real world generalization. The goal of this project is not predictive deployment, but to demonstrate how cognitive theory can be operationalized into behavioral features and interpreted through an explanatory model.
+
